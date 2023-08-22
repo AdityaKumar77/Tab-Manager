@@ -1,0 +1,124 @@
+body {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  background-color: rgb(191, 191, 191);
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+.tabs {
+  cursor: pointer;
+  padding: 9px;
+  border-radius: 10px;
+  margin: 0px;
+  list-style: none;
+}
+.tabs:hover .close-button {
+  visibility: visible;
+  display: block;
+}
+div {
+  display: flex;
+  flex-direction: column;
+}
+span:hover {
+  cursor: pointer;
+  background-color: rgb(128, 177, 217);
+  color: black;
+  font-weight: bold;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box {
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+}
+
+#tabcount {
+  font-size: large;
+  display: block;
+}
+
+/* Define the styling for tab icons */
+.tab-icon {
+  width: 16px; /* Adjust the width and height as needed */
+  height: 16px;
+  margin-right: 8px; /* Add spacing between icon and text */
+  vertical-align: middle; /* Align icons vertically with text */
+}
+
+.close-button {
+  display: none;
+  visibility: hidden; /* Hide the button by default */
+  background-color: #f1684f;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: center;
+}
+
+.flag-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+select {
+  padding: 5px;
+}
+/* style.css */
+Button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+Button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+.Buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.group-title {
+  font-weight: 700;
+  margin-top: 8px;
+}
+.most-visited {
+  background-color: yellow; /* or any other style you want */
+}
+.visited {
+  font-size: 13px;
+  margin-bottom: 5px;
+  background-color: yellow;
+  font-weight: 500;
+  border-radius: 3px;
+  padding-left: 4px;
+}
+.selected{
+  cursor: pointer;
+  background-color: rgb(190, 0, 0);
+  
+}
